@@ -29,11 +29,11 @@ function sendPushNotification(req, res) {
     .sendNotification(
       pushSubscription,
       JSON.stringify({
-        title: "New Product Available ",
-        text: "HEY! Take a look at this brand new t-shirt!",
+        title: "Heidi smells like poo poo",
+        text: "Maybe take a shower",
         image: "/images/jason-leung-HM6TMmevbZQ-unsplash.jpg",
         tag: "new-product",
-        url: "/new-product-jason-leung-HM6TMmevbZQ-unsplash.html"
+        url: "https://pagey.dev"
       })
     )
     .catch(err => {
